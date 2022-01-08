@@ -1,82 +1,17 @@
 {
   "ComponentIndexes": {},
-  "ControlUniqueIds": {
-    "App": 1,
-    "Button1": 16,
-    "Gallery1": 5,
-    "galleryTemplate1": 6,
-    "Image1": 15,
-    "Label1": 11,
-    "Label2": 14,
-    "NextArrow2": 8,
-    "PdfViewer1": 4,
-    "PenInput1": 13,
-    "Screen1": 3,
-    "Screen2": 12,
-    "Separator2": 10,
-    "Subtitle2": 9,
-    "Title2": 7
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "01/08/2022 11:22:31",
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {
-    "CustomGallerySample": 1,
-    "Vehículos": 0
-  },
+  "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "button": 7,
-    "gallery": 1,
-    "icon": 3,
-    "image": 6,
-    "inkControl": 5,
-    "label": 2,
-    "pdfViewer": 0,
-    "rectangle": 4
-  },
-  "PublishOrderIndices": {
-    "App": 0,
-    "Button1": 11,
-    "Gallery1": 1,
-    "galleryTemplate1": 2,
-    "Image1": 10,
-    "Label1": 7,
-    "Label2": 9,
-    "NextArrow2": 4,
-    "PdfViewer1": 0,
-    "PenInput1": 8,
-    "Screen1": 0,
-    "Screen2": 0,
-    "Separator2": 6,
-    "Subtitle2": 5,
-    "Title2": 3
-  },
-  "ResourcesJsonIndices": {
-    "Image-SampleImage": 0,
-    "Pdf-SamplePdf": 1
-  },
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.1719456,
-    "ControlCount": {
-      "button": 1,
-      "gallery": 1,
-      "galleryTemplate": 1,
-      "icon": 1,
-      "image": 1,
-      "inkControl": 1,
-      "label": 4,
-      "pdfViewer": 1,
-      "rectangle": 1,
-      "screen": 2
-    },
-    "DeserializationLoadTime": 0.5180104,
-    "ErrorCount": 0
-  }
+  "OrderXMLTemplate": {},
+  "PublishOrderIndices": {},
+  "ResourcesJsonIndices": {},
+  "TemplateVersions": {}
 }

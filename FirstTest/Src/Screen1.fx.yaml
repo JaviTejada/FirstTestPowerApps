@@ -19,7 +19,7 @@ Screen1 As screen:
             Text: =ThisItem.Matrícula
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
-            X: =32
+            X: =64
             Y: =16
             ZIndex: =1
 
