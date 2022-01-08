@@ -1,0 +1,31 @@
+{
+  "b65b0722-1b53-443f-87e4-25be8dc2f005": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/049b727de24b59d7e2d85334014344b8",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1539/1.0.1539.2620/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://hsibcn.sharepoint.com/sites/Administracin": {
+        "dataSources": {
+          "Vehículos": {
+            "tableName": "53b45ee8-5922-4180-81af-bf10c1dd70e0"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Vehículos"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "b65b0722-1b53-443f-87e4-25be8dc2f005"
+  }
+}

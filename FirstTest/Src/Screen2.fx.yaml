@@ -1,0 +1,33 @@
+Screen2 As screen:
+
+    PenInput1 As inkControl:
+        Height: =488
+        OnSelect: =Set(var1,JSON(Image1.Image,JSONFormat.IncludeBinaryData))
+        Width: =610
+        X: =609
+        Y: =27
+        ZIndex: =1
+
+    Image1 As image:
+        Height: =312
+        Image: =PenInput1.Image
+        Width: =352
+        X: =1002
+        Y: =327
+        ZIndex: =2
+
+    Label2 As label:
+        Height: =658
+        Text: =Image1.Image
+        Width: =618
+        X: =33
+        Y: =69
+        ZIndex: =3
+
+    Button1 As button:
+        OnSelect: =Download(var1 & ".png")
+        Text: ="Descargar"
+        X: =742
+        Y: =622
+        ZIndex: =4
+
