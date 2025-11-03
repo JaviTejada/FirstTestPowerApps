@@ -1,0 +1,141 @@
+{
+  "dataRoles": [
+    {
+      "name": "source",
+      "kind": "Grouping",
+      "displayName": "Origen"
+    },
+    {
+      "name": "destination",
+      "kind": "Grouping",
+      "displayName": "Destino"
+    },
+    {
+      "name": "weight",
+      "kind": "Measure",
+      "displayName": "Valor"
+    }
+  ],
+  "dataViewMappings": [
+    {
+      "categorical": {
+        "categories": {
+          "select": [
+            {
+              "for": {
+                "in": "source"
+              }
+            },
+            {
+              "for": {
+                "in": "destination"
+              }
+            }
+          ],
+          "dataReductionAlgorithm": {
+            "top": {}
+          }
+        },
+        "values": {
+          "select": [
+            {
+              "bind": {
+                "to": "weight"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "objects": {
+    "dataPoint": {
+      "displayName": "Colores de categorías",
+      "properties": {
+        "defaultColor": {
+          "displayName": "Color predeterminado",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "showAllDataPoints": {
+          "displayName": "Mostrar todos los colores",
+          "type": {
+            "bool": true
+          }
+        },
+        "fill": {
+          "displayName": "Color",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "nodeSettings": {
+      "displayName": "Nodos",
+      "properties": {
+        "labelFontSize": {
+          "displayName": "Tamaño de fuente",
+          "type": {
+            "formatting": {
+              "fontSize": true
+            }
+          }
+        },
+        "showValues": {
+          "displayName": "Mostrar valores",
+          "type": {
+            "bool": true
+          }
+        }
+      }
+    },
+    "linkSettings": {
+      "displayName": "Enlaces",
+      "properties": {
+        "opacity": {
+          "displayName": "Opacidad",
+          "type": {
+            "numeric": true
+          }
+        }
+      }
+    },
+    "iconSettings": {
+      "displayName": "Icono",
+      "properties": {
+        "imageUrl": {
+          "displayName": "URL del icono",
+          "type": {
+            "text": true
+          }
+        },
+        "size": {
+          "displayName": "Tamaño del icono",
+          "type": {
+            "numeric": true
+          }
+        }
+      }
+    }
+  },
+  "supportsHighlight": true,
+  "sorting": {
+    "default": {}
+  },
+  "drilldown": {
+    "roles": [
+      "source",
+      "destination"
+    ]
+  }
+}
